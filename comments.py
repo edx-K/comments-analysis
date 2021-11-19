@@ -18,3 +18,9 @@ for d in data:
 		new.append(d)
 print('total <100', len(new))
 print(new[0])
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('good comments', len(good))
